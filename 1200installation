@@ -1,0 +1,5 @@
+download from https://github.com/abperiasamy/rtl8812AU_8821AU_linux
+
+$make
+$sudo cp 8812au.ko /lib/modules/3.19.0-26-generic/kernel/drivers/net/wireless/
+sudo depmod
